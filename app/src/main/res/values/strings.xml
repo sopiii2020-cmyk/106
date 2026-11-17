@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VoltGuard Battery</string>
+    <string name="tile_label_default">VoltGuard</string>
+    <string name="action_turn_all_off">Turn All Off</string>
+    <string name="widget_all_off_label">VoltGuard All Off</string>
+    <string name="a11y_service_label">VoltGuard QS Fallback (Opt-in)</string>
+    <string name="a11y_service_description">Optional fallback to click Quick Settings tiles OFF when Shizuku or ADB permissions are unavailable. Never touches Hotspot or Rotation Lock.</string>
+    <string name="channel_monitor_name">Battery Telemetry Monitor</string>
+    <string name="channel_monitor_desc">Low-priority persistent notification required for continuous battery &amp; thermal sensing.</string>
+    <string name="channel_alerts_name">Charging &amp; Thermal Assists</string>
+    <string name="channel_alerts_desc">Optional notifications for fast-charge completion or thermal recovery assists.</string>
+</resources>

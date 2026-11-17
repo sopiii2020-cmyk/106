@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">محافظ باتری ولت‌گارد</string>
+    <string name="tile_label_default">VoltGuard</string>
+    <string name="action_turn_all_off">خاموش کردن همه</string>
+    <string name="widget_all_off_label">خاموش‌سازی سریع ولت‌گارد</string>
+    <string name="a11y_service_label">دستیار خودکار Quick Settings (اختیاری)</string>
+    <string name="a11y_service_description">جایگزین اختیاری برای خاموش کردن تایل‌های روشن Quick Settings بدون روت. هرگز به نقطه اتصال (Hotspot) و چرخش صفحه دست نمی‌زند.</string>
+    <string name="channel_monitor_name">پایشگر مصرف باتری</string>
+    <string name="channel_monitor_desc">اعلان کم‌اهمیت برای پایش مداوم دما و جریان باتری.</string>
+    <string name="channel_alerts_name">هشدارهای شارژ کامل</string>
+    <string name="channel_alerts_desc">اعلان اختیاری هنگام رسیدن شارژ سریع به ۱۰۰٪.</string>
+</resources>

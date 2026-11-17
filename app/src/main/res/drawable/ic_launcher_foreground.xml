@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="432"
+    android:viewportHeight="432">
+    <!-- Subtle outer cyan rim kept well inside 60dp safe zone (x=136..296, y=118..314) -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M216,118L136,151V214.5C136,264.8 170.2,306.8 216,318C261.8,306.8 296,264.8 296,214.5V151L216,118Z" />
+    <!-- Crisp emerald body -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M216,125L143,155.2V213.8C143,259.6 174.4,298.2 216,308.6C257.6,298.2 289,259.6 289,213.8V155.2L216,125Z" />
+    <!-- High-contrast deep obsidian core -->
+    <path
+        android:fillColor="#060B16"
+        android:pathData="M216,136L154,162V212.5C154,251.2 180.6,283.8 216,293.2C251.4,283.8 278,251.2 278,212.5V162L216,136Z" />
+    <!-- Sharp top mint specular highlight -->
+    <path
+        android:fillColor="#A7F3D0"
+        android:pathData="M216,136L154,162V170L216,144L278,170V162L216,136Z" />
+    <!-- Razor-sharp central lightning bolt -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M225.5,162L182,222H212.5L201.5,268L250,206H219L225.5,162Z" />
+</vector>
