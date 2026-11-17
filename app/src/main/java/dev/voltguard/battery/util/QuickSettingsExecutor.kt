@@ -162,7 +162,7 @@ object QuickSettingsExecutor {
             QsTargetKey.SCREEN_CAST -> runCatching {
                 val mr = context.getSystemService(MediaRouter::class.java)
                 val route = mr?.getSelectedRoute(MediaRouter.ROUTE_TYPE_LIVE_VIDEO)
-                route != null && !route.isDefault
+                route != null && route != mr.defaultRoute
             }.getOrDefault(false)
             QsTargetKey.MOBILE_DATA -> runCatching {
                 Settings.Global.getInt(cr, "mobile_data", 1) == 1
